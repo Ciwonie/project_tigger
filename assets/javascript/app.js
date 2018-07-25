@@ -1,5 +1,11 @@
 $(document).ready(function () {
     $('.sidenav').sidenav();
+    $('.slider').slider();
+    $('.carousel').materialbox();
+    $('.carousel.carousel-slider').carousel({
+        fullWidth: true
+      });
+
 
     $(document).on('click', '.index-button', function () {
         playSound();

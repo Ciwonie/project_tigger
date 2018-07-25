@@ -1,0 +1,59 @@
+* {
+    text-decoration: none;
+}
+
+body, html {
+    height: 100%;
+}
+
+.responsive-image {
+    background: url('../images/edited/content_tigger_bw.jpg');
+    /* Full height */
+    height: 100%; 
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.index-button {
+    position:absolute;
+    bottom:20%;
+}
+
+
+@media screen and (min-width: 1024px){
+    .responsive-image{
+        background-image: url('../images/edited/content_tigger_1080W.jpg');
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 980px) and (max-width: 1024px){
+    .responsive-image{
+        background-image: url('../images/edited/content_tigger_980W.jpg');
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 760px) and (max-width: 980px){
+    .responsive-image{
+        background-image: url('../images/edited/content_tigger_760W.jpg');
+    }
+}
+
+/* Mobile HD */
+@media screen and (min-width: 350px) and (max-width: 760px){
+    .responsive-image{
+        background-image: url('../images/edited/content_tigger_bw.jpg');
+    }
+}
+
+/* Mobile LD */
+@media screen and (max-width: 350px){
+    .responsive-image{
+        background-image: url('../images/edited/content_tigger_bw.jpg');
+    }
+} 

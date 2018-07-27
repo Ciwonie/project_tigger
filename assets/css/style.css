@@ -54,7 +54,7 @@ body, html {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 .slider .indicators .indicator-item.active {
-    background-color: #F15025;
+    background-color: #ff7043;
 }
 
 .gallery {
@@ -65,17 +65,22 @@ body, html {
 }
 
 .gallery-body {
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.75);
 }
 
 .swipe-title {
-    background-color: #D64720;
+    background-color: #ff7043;
     color: #FDFFFF;
     margin-bottom:0;
+    margin-top: 0;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
     text-align: center;
     border-radius: 4px;
- 
+}
+
+.medium {
+    margin-top: 20px;
+    text-align: center;
 }
 
 .carousel {
@@ -83,50 +88,28 @@ body, html {
 }
 
 .slider {
-    border-radius: 4px;
+    
 }
 
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (min-width: 1024px){
-    .responsive-image{
-        background-image: url('../images/edited/content_tigger_350W.jpg');
-    }
+.heart-btn {
+    
 }
 
-/* Desktop */
-@media screen and (min-width: 980px) and (max-width: 1024px){
-    .responsive-image{
-        background-image: url('../images/edited/content_tigger_980W.jpg');
-    }
+.videos {
+    height: auto;
+    width: auto;
+    overflow: hidden;
 }
 
-/* Tablet */
-@media screen and (min-width: 760px) and (max-width: 980px){
-    .responsive-image{
-        background-image: url('../images/edited/content_tigger_760W.jpg');
-    }
+.video-title {
+    text-align: center;
 }
 
-/* Mobile HD */
-@media screen and (min-width: 350px) and (max-width: 760px){
-    .responsive-image{
-        background-image: url('../images/edited/content_tigger_bw.jpg');
-    }
+.swap-icon {
+    font-size: 24px;
 }
 
-/* Mobile LD */
-@media screen and (max-width: 350px){
-    .responsive-image{
-        background-image: url('../images/edited/content_tigger_bw.jpg');
-    }
-} 
+.fixed-action-btn {
+    bottom: 9%;
+}
+

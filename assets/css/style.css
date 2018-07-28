@@ -22,6 +22,8 @@ body, html {
 .index-button {
     position:absolute;
     bottom:20%;
+    font-family: 'Patrick Hand', cursive;
+
 }
 
 
@@ -52,6 +54,9 @@ body, html {
     -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.slider {
+    font-family: 'Cookie', cursive;
 }
 .slider .indicators .indicator-item.active {
     background-color: #ff7043;
@@ -111,5 +116,9 @@ body, html {
 
 .fixed-action-btn {
     bottom: 9%;
+}
+
+h4 {
+    font-family: 'Patrick Hand', cursive;
 }
 
